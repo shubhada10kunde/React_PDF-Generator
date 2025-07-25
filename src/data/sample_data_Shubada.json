@@ -1,0 +1,445 @@
+{
+  "generated_at": "2025-06-11T09:28:49.414768",
+  "us_indices": {
+    "Dow Jones Futures": {
+      "value": 42807.0,
+      "change": 0.03
+    },
+    "S&P 500": {
+      "value": 6038.8,
+      "change": 0.55
+    },
+    "NASDAQ": {
+      "value": 19715.0,
+      "change": 0.63
+    },
+    "Russell 2000": {
+      "value": 2156.4,
+      "change": 0.56
+    }
+  },
+  "china_indices": {
+    "Hang Seng": {
+      "value": 24384.8,
+      "change": 0.92
+    },
+    "MSCI China": {
+      "value": 55.7,
+      "change": 0.31
+    },
+    "CSI 300 ETF": {
+      "value": 26.8,
+      "change": -0.74
+    },
+    "China Next": {
+      "value": 27.1,
+      "change": -1.8
+    }
+  },
+  "commodity_data": {
+    "Brent Crude": {
+      "value": 66.8,
+      "change": -0.4
+    },
+    "Bitcoin": {
+      "value": 109735.8,
+      "change": -0.51
+    },
+    "Gold": {
+      "value": 3361.7,
+      "change": 0.89
+    },
+    "Silver": {
+      "value": 36.8,
+      "change": 0.17
+    }
+  },
+  "news_summary": {
+    "Federal Reserve US": [
+      {
+        "title": "Asian shares gain as investors keep an eye on China-US trade talks",
+        "url": "https://financialpost.com/pmn/asian-shares-gain-as-investors-keep-an-eye-on-china-us-trade-talks",
+        "source": "Financial Post",
+        "publishedAt": "2025-06-10T03:10:36Z",
+        "description": "Asian shares were mostly higher on Tuesday as investors kept an eye on China-U.S. trade talks that might help stave off a recession."
+      },
+      {
+        "title": "Asian shares gain as investors keep an eye on China-US trade talks",
+        "url": "https://finance.yahoo.com/news/asian-shares-gain-investors-keep-030728762.html",
+        "source": "Yahoo Entertainment",
+        "publishedAt": "2025-06-10T03:07:28Z",
+        "description": "Asian shares were mostly higher on Tuesday as investors kept an eye on China-U.S. trade talks that might help stave off a recession."
+      }
+    ],
+    "China Stock Market": [
+      {
+        "title": "Two Chinese aircraft carriers seen in Pacific for first time, Japan says",
+        "url": "https://economictimes.indiatimes.com/news/defence/two-chinese-aircraft-carriers-seen-in-pacific-for-first-time-japan-says/articleshow/121742693.cms",
+        "source": "The Times of India",
+        "publishedAt": "2025-06-10T03:55:59Z",
+        "description": "Japan's Defence Ministry has confirmed the Liaoning and Shandong operating in separate locations in the Pacific on Saturday, both near remote southern islands belonging to Japan. Iwaya said the ministry had communicated with Beijing through China's embassy in\u2026"
+      },
+      {
+        "title": "Crypto cools off despite Asia stock rally \u2013 Is U.S. inflation the next shock?",
+        "url": "https://ambcrypto.com/crypto-cools-off-despite-asia-stock-rally-is-u-s-inflation-the-next-shock/",
+        "source": "Ambcrypto.com",
+        "publishedAt": "2025-06-10T03:00:41Z",
+        "description": "Derivatives show signs of volatility ahead of key U.S. economic data release."
+      }
+    ],
+    "Trump": [
+      {
+        "title": "Exclusive \u2014 Sen. Cotton Shoots Back at Gov. Newsom: \u2018California Deserves Better\u2019",
+        "url": "https://freerepublic.com/focus/f-chat/4322062/posts",
+        "source": "Freerepublic.com",
+        "publishedAt": "2025-06-10T03:58:46Z",
+        "description": "Sen. Tom Cotton (R-AR) shot back at Democrat California Gov."
+      },
+      {
+        "title": "Scammers are using AI to enroll fake students in online classes, then steal college financial aid",
+        "url": "https://abcnews.go.com/Technology/wireStory/scammers-ai-enroll-fake-students-online-classes-steal-122681093",
+        "source": "ABC News",
+        "publishedAt": "2025-06-10T03:58:45Z",
+        "description": "Financial aid fraud is exploding, thanks to the rise of artificial intelligence"
+      }
+    ],
+    "RESERVE BANK OF INDIA": [
+      {
+        "title": "Jana Small Finance Bank shares in focus after applying for universal banking licence",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/news/jana-small-finance-bank-shares-in-focus-after-applying-for-universal-banking-licence/articleshow/121741916.cms",
+        "source": "The Times of India",
+        "publishedAt": "2025-06-10T03:06:28Z",
+        "description": "Jana Small Finance Bank has applied to the RBI for a universal banking licence. Calling it a key milestone, the bank said the move underscores its focus on financial inclusion and sustainable banking."
+      },
+      {
+        "title": "Watch out for these stocks: Premier Energies, TIL, Eternal, ITD Cementation, Tata Power, Zee, Ola, IRB Infra",
+        "url": "https://www.thehindubusinessline.com/markets/stocks-to-watch-june-10-2025-premier-energies-tata-power-zee-ola-irb-infra/article69677300.ece",
+        "source": "BusinessLine",
+        "publishedAt": "2025-06-10T01:49:44Z",
+        "description": "Buzzing socks: 3 Mahindra group companies; rating downgrade on Vishnu Prakash; SEBI\u2019s fiat to PVP Ventures; Bullet to drive Zee; Bengal trouble for Dalmia, Birla Corp;"
+      }
+    ]
+  },
+  "sectoral_indices": {
+    "NIFTY 50": {
+      "value": 23380.05,
+      "change": 40.1,
+      "percent_change": 0.17
+    },
+    "NIFTY AUTO": {
+      "value": 23938.25,
+      "change": 179.25,
+      "percent_change": 0.75
+    },
+    "NIFTY BANK": {
+      "value": 56528.7,
+      "change": -100.4,
+      "percent_change": -0.18
+    },
+    "NIFTY ENERGY": {
+      "value": 36813.1,
+      "change": 297.85,
+      "percent_change": 0.82
+    },
+    "NIFTY FIN": {
+      "value": 28982.2,
+      "change": -53.05,
+      "percent_change": -0.18
+    },
+    "NIFTY FMCG": {
+      "value": 56163.2,
+      "change": -35.6,
+      "percent_change": -0.06
+    },
+    "NIFTY IT": {
+      "value": 38266.3,
+      "change": -33.65,
+      "percent_change": -0.09
+    },
+    "NIFTY METAL": {
+      "value": 9560,
+      "change": 50.3,
+      "percent_change": 0.53
+    },
+    "NIFTY MIDCAP": {
+      "value": 16787.9,
+      "change": 38.75,
+      "percent_change": 0.23
+    },
+    "NIFTY NEXT 50": {
+      "value": 69068.25,
+      "change": 145.7,
+      "percent_change": 0.21
+    },
+    "NIFTY PHARMA": {
+      "value": 21980,
+      "change": 32,
+      "percent_change": 0.15
+    },
+    "NIFTY PSU BANK": {
+      "value": 7143.45,
+      "change": -27.4,
+      "percent_change": -0.38
+    },
+    "NIFTY REALTY": {
+      "value": 1028.55,
+      "change": 2.25,
+      "percent_change": 0.22
+    }
+  },
+  "nifty50_movers": {
+    "gainers": [
+      {
+        "symbol": "BPCL",
+        "open": 320.3,
+        "last_price": 328.25,
+        "change_pct": 2.48
+      },
+      {
+        "symbol": "ONGC",
+        "open": 244.5,
+        "last_price": 247.4,
+        "change_pct": 1.19
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "open": 1003.95,
+        "last_price": 1014.5,
+        "change_pct": 1.05
+      },
+      {
+        "symbol": "COALINDIA",
+        "open": 400.1,
+        "last_price": 404.1,
+        "change_pct": 1.0
+      },
+      {
+        "symbol": "EICHERMOT",
+        "open": 5370.0,
+        "last_price": 5419.5,
+        "change_pct": 0.92
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "LT",
+        "open": 3689.9,
+        "last_price": 3664.8,
+        "change_pct": -0.68
+      },
+      {
+        "symbol": "WIPRO",
+        "open": 256.02,
+        "last_price": 254.39,
+        "change_pct": -0.64
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "open": 2149.0,
+        "last_price": 2135.9,
+        "change_pct": -0.61
+      },
+      {
+        "symbol": "TECHM",
+        "open": 1618.0,
+        "last_price": 1609.0,
+        "change_pct": -0.56
+      },
+      {
+        "symbol": "APOLLOHOSP",
+        "open": 6918.0,
+        "last_price": 6879.5,
+        "change_pct": -0.56
+      }
+    ]
+  },
+  "india_indices": {
+    "Sensex": {
+      "value": 82473.0,
+      "change": 0.1
+    },
+    "Nifty 50": {
+      "value": 25133.9,
+      "change": 0.12
+    },
+    "Bank Nifty": {
+      "value": 56629.1,
+      "change": -0.37
+    },
+    "IT": {
+      "value": 38300.0,
+      "change": 1.67
+    }
+  },
+  "index_stats": {
+    "NIFTY": {
+      "r1": 25183.88,
+      "r2": 25263.52,
+      "s1": 25040.03,
+      "s2": 24975.82,
+      "ema5": 25023.61,
+      "ema20": 24822.52,
+      "close": 25134.3,
+      "trend": "bullish"
+    },
+    "BANKNIFTY": {
+      "r1": 56908.28,
+      "r2": 57187.47,
+      "s1": 56457.03,
+      "s2": 56284.97,
+      "ema5": 56428.46,
+      "ema20": 55800.55,
+      "close": 56507.45,
+      "trend": "bullish"
+    }
+  },
+  "nifty_ytd_return": 5.86,
+  "india_vix": {
+    "value": 13.89,
+    "change": -0.93
+  },
+  "nifty_10d_ohlc": [
+    {
+      "date": "2025-05-29",
+      "open": 24825.1,
+      "high": 24892.6,
+      "low": 24677.3,
+      "close": 24833.6
+    },
+    {
+      "date": "2025-05-30",
+      "open": 24812.6,
+      "high": 24863.95,
+      "low": 24717.4,
+      "close": 24750.7
+    },
+    {
+      "date": "2025-06-02",
+      "open": 24669.7,
+      "high": 24754.4,
+      "low": 24526.15,
+      "close": 24716.6
+    },
+    {
+      "date": "2025-06-03",
+      "open": 24786.3,
+      "high": 24845.1,
+      "low": 24502.15,
+      "close": 24542.5
+    },
+    {
+      "date": "2025-06-04",
+      "open": 24560.45,
+      "high": 24644.25,
+      "low": 24530.45,
+      "close": 24620.2
+    },
+    {
+      "date": "2025-06-05",
+      "open": 24691.2,
+      "high": 24899.85,
+      "low": 24613.1,
+      "close": 24750.9
+    },
+    {
+      "date": "2025-06-06",
+      "open": 24748.7,
+      "high": 25029.5,
+      "low": 24671.45,
+      "close": 25003.05
+    },
+    {
+      "date": "2025-06-09",
+      "open": 25160.1,
+      "high": 25160.1,
+      "low": 25077.15,
+      "close": 25103.2
+    },
+    {
+      "date": "2025-06-10",
+      "open": 25196.05,
+      "high": 25199.3,
+      "low": 25055.45,
+      "close": 25104.25
+    },
+    {
+      "date": "2025-06-11",
+      "open": 25134.15,
+      "high": 25137.55,
+      "low": 25081.3,
+      "close": 25134.3
+    }
+  ],
+  "banknifty_10d_ohlc": [
+    {
+      "date": "2025-05-29",
+      "open": 55571.4,
+      "high": 55782.75,
+      "low": 55096.45,
+      "close": 55546.05
+    },
+    {
+      "date": "2025-05-30",
+      "open": 55615.55,
+      "high": 55813.3,
+      "low": 55356.6,
+      "close": 55749.7
+    },
+    {
+      "date": "2025-06-02",
+      "open": 55598.25,
+      "high": 55966.3,
+      "low": 55400.55,
+      "close": 55903.4
+    },
+    {
+      "date": "2025-06-03",
+      "open": 56104.8,
+      "high": 56161.4,
+      "low": 55455.8,
+      "close": 55599.95
+    },
+    {
+      "date": "2025-06-04",
+      "open": 55650.35,
+      "high": 55791.0,
+      "low": 55408.35,
+      "close": 55676.85
+    },
+    {
+      "date": "2025-06-05",
+      "open": 55806.75,
+      "high": 56010.15,
+      "low": 55580.45,
+      "close": 55760.85
+    },
+    {
+      "date": "2025-06-06",
+      "open": 55699.45,
+      "high": 56695.0,
+      "low": 55534.75,
+      "close": 56578.4
+    },
+    {
+      "date": "2025-06-09",
+      "open": 57049.5,
+      "high": 57049.5,
+      "low": 56792.7,
+      "close": 56839.6
+    },
+    {
+      "date": "2025-06-10",
+      "open": 56993.9,
+      "high": 57015.4,
+      "low": 56564.15,
+      "close": 56629.1
+    },
+    {
+      "date": "2025-06-11",
+      "open": 56639.85,
+      "high": 56669.3,
+      "low": 56489.9,
+      "close": 56507.45
+    }
+  ]
+}
