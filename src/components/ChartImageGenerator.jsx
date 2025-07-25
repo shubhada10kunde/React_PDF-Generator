@@ -1,10 +1,11 @@
 // src/components/ChartImageGenerator.jsx
-import React, { useRef } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
+import { toPng } from "html-to-image";
 
 const ChartImageGenerator = ({ chartId, title, data, onImageGenerated }) => {
-  const chartRef = useRef(null);
+  const containerRef = useRef(null);
 
   const chartData = {
     labels: data.map((d) => d.date),
@@ -24,9 +25,14 @@ const ChartImageGenerator = ({ chartId, title, data, onImageGenerated }) => {
     responsive: true,
     animation: {
       onComplete: () => {
-        if (chartRef.current) {
-          const base64 = chartRef.current.toBase64Image();
-          onImageGenerated(chartId, base64);
+        if (containerRef.current) {
+          toPng(containerRef.current)
+            .then((dataUrl) => {
+              onImageGenerated(chartId, dataUrl);
+            })
+            .catch((err) => {
+              console.error("Error generating chart image:", err);
+            });
         }
       },
     },
@@ -38,14 +44,8 @@ const ChartImageGenerator = ({ chartId, title, data, onImageGenerated }) => {
   };
 
   return (
-    <div style={{ display: "none" }}>
-      <Line
-        data={chartData}
-        options={chartOptions}
-        ref={(ref) => {
-          if (ref) chartRef.current = ref.chart || ref.chartInstance;
-        }}
-      />
+    <div ref={containerRef} style={{ width: 400, height: 300 }}>
+      <Line data={chartData} options={chartOptions} />
     </div>
   );
 };

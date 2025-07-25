@@ -1,4 +1,3 @@
-// src/components/PDFReport.jsx
 import {
   Document,
   Page,
