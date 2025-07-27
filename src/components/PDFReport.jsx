@@ -140,7 +140,7 @@ const PDFReport = ({ data, charts }) => (
 
     {/* PAGE 2 */}
     <Page size="A4" style={styles.page}>
-      <Text style={styles.header}>Daily Financial Report</Text>
+      {/* <Text style={styles.header}>Daily Financial Report</Text> */}
       <Text style={styles.footer}>Page 2</Text>
 
       <View style={[styles.section, styles.lightBlue]}>
@@ -216,7 +216,7 @@ const PDFReport = ({ data, charts }) => (
 
     {/* PAGE 3 – CHARTS */}
     <Page size="A4" style={styles.page}>
-      <Text style={styles.header}>Daily Financial Report</Text>
+      {/* <Text style={styles.header}>Daily Financial Report</Text> */}
       <Text style={styles.footer}>Page 3</Text>
 
       <View style={[styles.section, styles.lightGray]}>

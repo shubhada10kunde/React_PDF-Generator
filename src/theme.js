@@ -5,18 +5,18 @@ const darkTheme = createTheme({
   palette: {
     mode: "dark",
     background: {
-      default: "#000000", // pure black
-      paper: "#121212", // slightly lighter for Card background
+      default: "#000000",
+      paper: "#121212",
     },
     text: {
       primary: "#ffffff",
       secondary: "#aaaaaa",
     },
     primary: {
-      main: "#90caf9", // light blue
+      main: "#90caf9",
     },
     secondary: {
-      main: "#f48fb1", // pink accent
+      main: "#f48fb1",
     },
   },
   typography: {

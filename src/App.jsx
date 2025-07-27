@@ -11,6 +11,7 @@ import {
   DialogContent,
   DialogActions,
 } from "@mui/material";
+import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
 import { PDFDownloadLink, PDFViewer } from "@react-pdf/renderer";
 import PDFReport from "./components/PDFReport";
 import ChartImageGenerator from "./components/ChartImageGenerator";
@@ -85,9 +86,18 @@ function App() {
             }}
           >
             <CardContent>
-              <Typography variant="h4" align="center" gutterBottom>
-                📊 PDF Report Generator
-              </Typography>
+              <Box
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+                gap={1}
+                mb={2}
+              >
+                <InsertChartOutlinedIcon fontSize="large" />
+                <Typography variant="h4" component="h1">
+                  PDF Report Generator
+                </Typography>
+              </Box>
 
               <Box
                 display="flex"
