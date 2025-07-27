@@ -94,7 +94,7 @@ const PDFReport = ({ data, charts }) => (
       <Text style={styles.header}>
         Generated at: {format(new Date(data.generated_at), "PPpp")}
       </Text>
-      <Text style={styles.footer}>Page 2</Text>
+      <Text style={styles.footer}>Page 1</Text>
 
       <View style={[styles.section, styles.lightGray]}>
         <Text style={styles.heading}>US Indices</Text>
